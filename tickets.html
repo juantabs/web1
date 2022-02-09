@@ -18,8 +18,8 @@
         <nav style= "text-align:center; background-color:brown;">
 
             <span style="font-size: 24px; padding:12px ; word-spacing:100px; font-weight: bold;">
-                <a  id="links" href="#">Home</a> 
-                <a  id="links" href="tickets.html">Tickets</a>
+                <a  id="links" href="home.html">Home</a> 
+                <a  id="links" href="#">Tickets</a>
                 <a  id="links" href="technology.html">Technology</a> 
                 <a  id="links" href="geography.html">Geography</a>   
                 
@@ -34,6 +34,85 @@
         <section style="text-align:center;">
             <img src="img/starship.png">
 
+        </section>
+
+        <section>
+            <form action="formSuccess.html" method="POST">
+                <label for="username">Username</label>
+                <input id="username" type="text" name="username">
+                <br>
+                <label for="password">Password</label>
+                <input id="password" type="password" name="password">
+
+                <br>
+                <label for="age">Age</label>
+                <input id="age" type="number" step="5" name="age">
+
+                <br>
+                <label for="phone">Phone</label>
+                <input id="phone" type="number"  name="phone">
+
+                <br>
+                <label for="genre">Whats your genre?</label>
+                <label for="male">Male</label>
+                <input id="male" type="radio"  name="male">
+                <label for="female">Female</label>
+                <input id="female" type="radio"  name="female" >
+                <br>
+
+                <label for="city">Your current city</label>
+                <select id="city" name="city">
+                    <option value="cali"   >Cali</option>
+                    <option value="bogota"   >Bogotá</option>
+                    <option value="medellin"   >Medellín</option>
+                    <option value="cartagena"   >Cartagena</option>
+                </select>            
+                <br>
+
+                <label for="neighborhood">What's your neighborhood</label>
+                <input  type="text"  list="barrios" >
+                <datalist id="barrios">
+                    <option value="Bochalema"></option>
+                    <option value="Valle del lili"></option>
+                </datalist>
+
+                
+
+                
+                <label for="comment">What's your opinion?</label>
+                <br>
+                <textarea name="comment" id="comment" cols="30" rows="10"> </textarea>
+
+            
+            </form>
+        </section>
+
+        <section>
+            <table border="1">
+                <thead>
+                    <tr>
+                    <td>Number</td>
+                    <td>Departure date</td>
+                    <td>Arrival date</td>
+                    <td>Cost</td>
+                    </tr>
+                    
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>AFJ123</td>
+                        <td>08/04/2022</td>
+                        <td>08/05/2022</td>
+                        <td>500.00</td>
+                        
+                    </tr>
+
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
         </section>
     </main>
     <footer style="background-color: chocolate; text-align: end; height:200px;">
