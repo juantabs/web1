@@ -36,31 +36,24 @@
 
         </section>
 
-        <section>
-            <form action="formSuccess.html" method="POST">
-                <label for="username">Username</label>
-                <input id="username" type="text" name="username">
+        <section >
+            <form action="formSuccess.html" method="POST" style="margin: auto;">
+                <label  style="margin: auto;" for="username">Username</label>
+                <input style="margin: auto;" id="username" type="text" name="username">
                 <br>
                 <label for="password">Password</label>
                 <input id="password" type="password" name="password">
 
-                <br>
-                <label for="age">Age</label>
-                <input id="age" type="number" step="5" name="age">
+            
 
                 <br>
                 <label for="phone">Phone</label>
                 <input id="phone" type="number"  name="phone">
-
-                <br>
-                <label for="genre">Whats your genre?</label>
-                <label for="male">Male</label>
-                <input id="male" type="radio"  name="male">
-                <label for="female">Female</label>
-                <input id="female" type="radio"  name="female" >
                 <br>
 
-                <label for="city">Your current city</label>
+            
+
+                <label for="city">Your departure city</label>
                 <select id="city" name="city">
                     <option value="cali"   >Cali</option>
                     <option value="bogota"   >Bogotá</option>
@@ -68,30 +61,26 @@
                     <option value="cartagena"   >Cartagena</option>
                 </select>            
                 <br>
+                <label for="city">Your arrive Mars zone</label>
+                <select id="city" name="city">
+                    <option value="cali"   >Marte-0301</option>
+                    <option value="bogota"   >Mars US zone</option>
+                    <option value="medellin"   >Mars EUR zone</option>
+                    <option value="cartagena"   >Marte-0202</option>
+                </select>  
 
-                <label for="neighborhood">What's your neighborhood</label>
-                <input  type="text"  list="barrios" >
-                <datalist id="barrios">
-                    <option value="Bochalema"></option>
-                    <option value="Valle del lili"></option>
-                </datalist>
-
-                
-
-                
-                <label for="comment">What's your opinion?</label>
-                <br>
-                <textarea name="comment" id="comment" cols="30" rows="10"> </textarea>
 
             
             </form>
         </section>
 
         <section>
-            <table border="1">
+            <table border="1" style="margin-left: auto; margin-right: auto;">
                 <thead>
                     <tr>
                     <td>Number</td>
+                    <td>Departure city</td>
+                    <td>Arrival city</td>
                     <td>Departure date</td>
                     <td>Arrival date</td>
                     <td>Cost</td>
@@ -101,10 +90,39 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>AFJ123</td>
+                        <td>AYT983</td>
+                        <td>Cali</td>
+                        <td>Marte-0301</td>
                         <td>08/04/2022</td>
                         <td>08/05/2022</td>
                         <td>500.00</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>AFJ123</td>
+                        <td>Medellín</td>
+                        <td>Mars US zone</td>
+                        <td>08/04/2022</td>
+                        <td>08/05/2022</td>
+                        <td>300.00</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>FGH758</td>
+                        <td>Cali</td>
+                        <td>Marte-0301</td>
+                        <td>08/04/2022</td>
+                        <td>08/05/2022</td>
+                        <td>400.00</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>ESA544</td>
+                        <td>Medellín</td>
+                        <td>Mars US zone</td>
+                        <td>08/04/2022</td>
+                        <td>08/05/2022</td>
+                        <td>550.00</td>
                         
                     </tr>
 
