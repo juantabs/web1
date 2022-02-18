@@ -3,6 +3,10 @@ body{
     margin: 0%;
     background-color:burlywood;
 }
+#banner_home{
+    width: 1900px;
+}
+
 nav{
     text-align:center; 
     background-color:brown;
